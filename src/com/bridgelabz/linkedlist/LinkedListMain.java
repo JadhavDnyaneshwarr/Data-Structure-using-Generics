@@ -16,5 +16,15 @@ public class LinkedListMain {
         linkedList2.append(70);
         linkedList2.display();
         System.out.println();
+
+        LinkedList<Integer> linkedList3 = new LinkedList();
+        linkedList3.append(70);
+        linkedList3.append(56);
+        linkedList3.append(80);
+        linkedList3.display();
+        System.out.println();
+        linkedList3.insert(90, 80);
+        linkedList3.display();
+
     }
 }
