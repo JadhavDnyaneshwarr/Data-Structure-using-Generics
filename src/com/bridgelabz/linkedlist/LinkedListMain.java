@@ -20,11 +20,18 @@ public class LinkedListMain {
         LinkedList<Integer> linkedList3 = new LinkedList();
         linkedList3.append(70);
         linkedList3.append(56);
-        linkedList3.append(80);
+        linkedList3.display();
+        linkedList3.insert(30, 56);
         linkedList3.display();
         System.out.println();
-        linkedList3.insert(90, 80);
-        linkedList3.display();
 
+        LinkedList<Integer> linkedList4 = new LinkedList();
+        linkedList4.append(70);
+        linkedList4.append(30);
+        linkedList4.append(56);
+        linkedList4.display();
+        System.out.println(linkedList4.popFirst());
+        linkedList4.display();
+        System.out.println();
     }
 }
