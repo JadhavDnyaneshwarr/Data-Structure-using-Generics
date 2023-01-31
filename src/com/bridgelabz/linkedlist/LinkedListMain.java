@@ -5,6 +5,8 @@ public class LinkedListMain {
         System.out.println("Welcome to Data structure program using generics");
         LinkedList<Integer> linkedList = new LinkedList();
         linkedList.add(70);
+        linkedList.add(30);
+        linkedList.add(56);
         linkedList.display();
         System.out.println();
     }
