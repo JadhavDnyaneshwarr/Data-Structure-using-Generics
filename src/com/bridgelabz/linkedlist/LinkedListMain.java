@@ -33,5 +33,14 @@ public class LinkedListMain {
         System.out.println(linkedList4.popFirst());
         linkedList4.display();
         System.out.println();
+
+        LinkedList<Integer> linkedList5 = new LinkedList();
+        linkedList5.add(70);
+        linkedList5.add(30);
+        linkedList5.add(56);
+        linkedList5.display();
+        System.out.println(linkedList5.popLast());
+        linkedList5.display();
+        System.out.println();
     }
 }
