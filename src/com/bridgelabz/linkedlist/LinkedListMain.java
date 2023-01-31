@@ -53,5 +53,19 @@ public class LinkedListMain {
         }else {
             System.out.println("element is found in Linked List");
         }
+        System.out.println();
+
+        LinkedList<Integer> linkedList7 = new LinkedList();
+        linkedList7.add(70);
+        linkedList7.add(30);
+        linkedList7.add(56);
+        linkedList7.display();
+        if (linkedList7.insert(40, 30) == true){
+            System.out.println("element is insert in Linked List");
+        }else {
+            System.out.println("element is not insert in Linked List");
+        }
+        linkedList7.display();
+        System.out.println();
     }
 }
