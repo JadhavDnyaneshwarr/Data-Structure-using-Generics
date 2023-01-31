@@ -67,5 +67,16 @@ public class LinkedListMain {
         }
         linkedList7.display();
         System.out.println();
+
+        LinkedList<Integer> linkedList9 = new LinkedList();
+        linkedList9.add(70);
+        linkedList9.add(40);
+        linkedList9.add(30);
+        linkedList9.add(56);
+        linkedList9.display();
+        System.out.println(linkedList9.delete(40) + " is deleted from the Liked List");
+        linkedList9.size();
+        linkedList9.display();
+        System.out.println();
     }
 }
