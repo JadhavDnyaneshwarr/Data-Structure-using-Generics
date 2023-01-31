@@ -42,5 +42,16 @@ public class LinkedListMain {
         System.out.println(linkedList5.popLast());
         linkedList5.display();
         System.out.println();
+
+        LinkedList<Integer> linkedList6 = new LinkedList();
+        linkedList6.add(70);
+        linkedList6.add(30);
+        linkedList6.add(56);
+        linkedList6.display();
+        if (linkedList6.search(30) == null){
+            System.out.println("element is not found in Linked List");
+        }else {
+            System.out.println("element is found in Linked List");
+        }
     }
 }

@@ -26,6 +26,7 @@ public class LinkedList<T> {
     }
     public Node<T> search(T searchData){
         Node<T> temp = head;
+        Boolean found = true;
         while (temp != null){
             if (temp.data.equals(searchData)){
                 return temp;
