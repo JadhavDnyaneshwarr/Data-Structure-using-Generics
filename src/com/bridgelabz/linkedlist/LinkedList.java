@@ -45,6 +45,11 @@ public class LinkedList<T> {
         }
         return false;
     }
+    public T popFirst() {
+        T popData = head.data;
+        head = head.next;
+        return popData;
+    }
 
 
     public void display(){
