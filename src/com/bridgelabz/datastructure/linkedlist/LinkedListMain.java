@@ -1,4 +1,4 @@
-package com.bridgelabz.linkedlist;
+package com.bridgelabz.datastructure.linkedlist;
 
 public class LinkedListMain {
     public static void main(String[] args) {
@@ -78,5 +78,12 @@ public class LinkedListMain {
         linkedList9.size();
         linkedList9.display();
         System.out.println();
+
+        SortedLinkedList<Integer> linkedList10 = new SortedLinkedList();
+        linkedList10.sortLinkedList(56);
+        linkedList10.sortLinkedList(40);
+        linkedList10.sortLinkedList(30);
+        linkedList10.sortLinkedList(70);
+        linkedList10.display();
     }
 }
