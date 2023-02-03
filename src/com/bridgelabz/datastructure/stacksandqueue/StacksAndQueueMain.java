@@ -8,11 +8,19 @@ public class StacksAndQueueMain {
         stacks1.add(30);
         stacks1.add(56);
         stacks1.display();
+        System.out.println();
         Stacks<Integer> stacks2 = new Stacks<>();
         stacks2.add(70);
         stacks2.add(30);
         stacks2.add(56);
         stacks2.display();
         stacks2.pop();
+        System.out.println();
+        Queue<Integer> Queue1 = new Queue<>();
+        Queue1.append(56);
+        Queue1.append(30);
+        Queue1.append(70);
+        Queue1.display();
+        System.out.println();
     }
 }
