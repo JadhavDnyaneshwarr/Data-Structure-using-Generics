@@ -22,5 +22,12 @@ public class StacksAndQueueMain {
         Queue1.append(70);
         Queue1.display();
         System.out.println();
+        Queue<Integer> Queue2 = new Queue<>();
+        Queue2.append(56);
+        Queue2.append(30);
+        Queue2.append(70);
+        Queue2.display();
+        Queue2.pop();
+        System.out.println();
     }
 }
