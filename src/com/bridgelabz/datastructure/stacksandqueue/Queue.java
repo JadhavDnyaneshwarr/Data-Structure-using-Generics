@@ -10,6 +10,14 @@ public class Queue<T> {
     public void append (T data){
         list.append(data);
     }
+    public void pop(){
+        while (list.head != null) {
+            System.out.println("head of Queue: " + list.head.data);
+            list.popFirst();
+            display();
+        }
+        System.out.println("Queue is Empty");
+    }
     public void display() {
         list.display();
     }

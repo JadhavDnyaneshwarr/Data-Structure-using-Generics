@@ -1,7 +1,7 @@
 package com.bridgelabz.datastructure.linkedlist;
 
 public class Node<T> {
-    T data;
+    public T data;
     Node<T> next;
 
     public Node(T data){

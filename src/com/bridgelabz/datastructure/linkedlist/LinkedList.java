@@ -1,7 +1,7 @@
 package com.bridgelabz.datastructure.linkedlist;
 
 public class LinkedList<T> {
-    Node<T> head;
+    public Node<T> head;
     Node<T> tail;
 
     public void add(T data) {
